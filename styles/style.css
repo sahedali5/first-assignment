@@ -1,0 +1,94 @@
+* {
+    font-family: "Fira Sans", serif;
+}
+body {
+    margin: 24px 160px;
+}
+header {
+    margin: 24px 0;
+}
+.nav-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.sign-btn {
+    font-size: 18px;
+    color: #006a50;
+    padding: 15px 30px;
+    border-radius: 8px;
+    font-weight: 600;
+    border: 1px solid #006a50;
+    border-radius: 8px;
+}
+a {
+    font-size: 30px;
+    font-weight: bold;
+}
+/* banner style start */
+.banner-style {
+    border-radius: 24px;
+    background: #c6e4d6;
+    margin-bottom: 80px;
+}
+.banner-container {
+    display: flex;
+    gap: 64px;
+    padding: 80px 100px;
+    align-items: center;
+}
+
+.banner-title {
+    color: rgba(14, 14, 14, 0.5);
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 16px;
+}
+.banner-description {
+    margin: 0;
+    margin-bottom: 24px;
+    font-size: 56px;
+    font-weight: 700;
+}
+/* primary btn style */
+.primary-btn {
+    color: #fff;
+    background: #006a50;
+    border: #006a50;
+    border-radius: 8px;
+    font-size: 18px;
+    font-weight: 500;
+    padding: 17px 34px;
+}
+/* vision and future style */
+.vision-heading {
+    color: #0e0e0e;
+    font-size: 40px;
+    font-weight: 700;
+    margin: 0;
+    margin-bottom: 24px;
+}
+.vision-description {
+    color: rgba(14, 14, 14, 0.7);
+}
+/* digital card style */
+.digital-card1 {
+    border-radius: 16px;
+    background: rgba(84, 143, 245, 0.466);
+    padding: 32px;
+}
+.card-title {
+    font-size: 20px;
+    font-weight: bold;
+    color: rgba(14, 14, 14, 0.8);
+    margin: 24px 0 12px 0;
+}
+.card-description {
+    margin: 0 0 24px 0;
+}
+.digital-btn1 {
+    border: #548ff5d9;
+    padding: 11px 22px;
+    border-radius: 8px;
+    background: #5490f5;
+}
