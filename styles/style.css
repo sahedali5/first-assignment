@@ -20,6 +20,30 @@ header {
     font-weight: 600;
     border: 1px solid #006a50;
     border-radius: 8px;
+    transition: background-color 0.3s ease;
+}
+/* .primary-btn {
+    background-color: #006a40;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+} */
+.sign-btn:hover {
+    color: wheat;
+    transform: scale(1.2);
+    box-shadow: 0 6px 10px rgba(16, 16, 16, 0.2);
+    background-color: #03210a;
+    transition: background-color 0.3s ease;
+}
+.primary-btn:hover {
+    font-weight: bold;
+    color: wheat;
+    box-shadow: 0 6px 10px rgba(16, 16, 16, 0.2);
+    background-color: #03210a;
+    transition: background-color 0.3s ease;
 }
 a {
     font-size: 30px;
@@ -85,15 +109,34 @@ a {
     background: rgba(84, 143, 245, 0.466);
     padding: 32px;
 }
+.digital-btn1:hover {
+    font-weight: bold;
+    color: wheat;
+    box-shadow: 0 6px 10px rgba(16, 16, 16, 0.2);
+    background-color: #03210a;
+    transition: background-color 0.3s ease;
+}
 .digital-card2 {
     border-radius: 16px;
     background: rgba(65, 219, 233, 0.445);
     padding: 32px;
 }
+.digital-btn2:hover {
+    color: wheat;
+    background-color: #5490f5;
+    box-shadow: 0 5px 8px rgba(16, 16, 16, 0.2);
+    transition: background-color 0.3s ease;
+}
 .digital-card3 {
     border-radius: 16px;
     background: rgba(206, 237, 121, 0.443);
     padding: 32px;
+}
+.digital-btn3:hover {
+    color: wheat;
+    background-color: #0c3034;
+    box-shadow: 0 5px 8px rgba(16, 16, 16, 0.2);
+    transition: background-color 0.3s ease;
 }
 .card-title {
     font-size: 20px;
@@ -122,7 +165,7 @@ a {
     border: #128ec793;
     padding: 11px 22px;
     border-radius: 8px;
-    background: #134d33bd;
+    background: #071e13bd;
 }
 .digital-btn3 {
     color: #fff;
@@ -172,6 +215,12 @@ a {
     border: 0;
     padding: 13px 26px;
 }
+.news-btn:hover {
+    color: wheat;
+    background-color: #092428;
+    box-shadow: 0 5px 8px rgba(16, 16, 16, 0.2);
+    transition: background-color 0.3s ease;
+}
 .news-card2 {
     flex-direction: row-reverse;
 }
@@ -197,6 +246,10 @@ a {
     border: 1px solid rgba(14, 14, 14, 0.15);
     padding: 40px;
 }
+.donate-amount > ul > li:hover {
+    color: wheat;
+    background: #197e6a;
+}
 .amount-donate {
     margin: 0 0 32px 0;
     width: 845px;
@@ -219,4 +272,10 @@ input::placeholder {
     color: white;
     padding: 17px 34px;
     margin-bottom: 32px;
+}
+.done-amount:hover {
+    color: wheat;
+    background-color: #2f77f5;
+    box-shadow: 0 6px 10px rgba(16, 16, 16, 0.2);
+    transition: background-color 0.3s ease;
 }
