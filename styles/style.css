@@ -20,31 +20,16 @@ header {
     font-weight: 600;
     border: 1px solid #006a50;
     border-radius: 8px;
-    transition: background-color 0.3s ease;
+    transition: 0.5s ease;
 }
-/* .primary-btn {
-    background-color: #006a40;
-    color: white;
-    padding: 10px 20px;
-    border: none;
-    cursor: pointer;
-    font-size: 16px;
-    transition: background-color 0.3s ease;
-} */
 .sign-btn:hover {
     color: wheat;
-    transform: scale(1.2);
+    /* transform: scale(1.2); */
     box-shadow: 0 6px 10px rgba(16, 16, 16, 0.2);
     background-color: #03210a;
-    transition: background-color 0.3s ease;
+    transition: 0.5 ease;
 }
-.primary-btn:hover {
-    font-weight: bold;
-    color: wheat;
-    box-shadow: 0 6px 10px rgba(16, 16, 16, 0.2);
-    background-color: #03210a;
-    transition: background-color 0.3s ease;
-}
+
 a {
     font-size: 30px;
     font-weight: bold;
@@ -83,6 +68,14 @@ a {
     font-size: 18px;
     font-weight: 500;
     padding: 17px 34px;
+    transition: 0.5s ease;
+}
+.primary-btn:hover {
+    font-weight: bold;
+    color: wheat;
+    box-shadow: 0 6px 10px rgba(16, 16, 16, 0.2);
+    background-color: #1c68e3ef;
+    transition: 0.4s ease;
 }
 /* vision and future style */
 .vision-heading {
@@ -109,34 +102,46 @@ a {
     background: rgba(84, 143, 245, 0.466);
     padding: 32px;
 }
+.digital-card1:hover {
+    background-color: #195c48da;
+    transition: 0.3s ease-in;
+}
 .digital-btn1:hover {
     font-weight: bold;
     color: wheat;
     box-shadow: 0 6px 10px rgba(16, 16, 16, 0.2);
     background-color: #03210a;
-    transition: background-color 0.3s ease;
+    transition: 0.2s ease;
 }
 .digital-card2 {
     border-radius: 16px;
     background: rgba(65, 219, 233, 0.445);
     padding: 32px;
 }
+.digital-card2:hover {
+    background: rgba(47, 72, 119, 0.79);
+    transition: 0.3s ease-in;
+}
 .digital-btn2:hover {
     color: wheat;
     background-color: #5490f5;
     box-shadow: 0 5px 8px rgba(16, 16, 16, 0.2);
-    transition: background-color 0.3s ease;
+    transition: 0.3s ease-in;
 }
 .digital-card3 {
     border-radius: 16px;
     background: rgba(206, 237, 121, 0.443);
     padding: 32px;
 }
+.digital-card3:hover {
+    background-color: #f37844d4;
+    transition: 0.3s ease-in;
+}
 .digital-btn3:hover {
     color: wheat;
     background-color: #0c3034;
     box-shadow: 0 5px 8px rgba(16, 16, 16, 0.2);
-    transition: background-color 0.3s ease;
+    transition: 0.2s ease;
 }
 .card-title {
     font-size: 20px;
@@ -175,6 +180,35 @@ a {
     border-radius: 8px;
     background: #d54444d8;
 }
+/* quote section style */
+
+.quote-container {
+    padding: 24px 48px;
+    border-radius: 12px;
+    background: #f7efefc8;
+    margin-bottom: 40px;
+}
+.quote-container:hover {
+    background: #ea6a6aca;
+    transition: 0.3s ease-in;
+}
+.quote-img {
+    position: absolute;
+}
+.quote-description {
+    margin: 0;
+    margin-bottom: 12px;
+}
+.quote-honest-man {
+    font-size: 20px;
+    font-weight: 600;
+    color: rgba(14, 14, 14, 0.8);
+    margin: 0;
+}
+.quote-bangladesh {
+    margin: 0;
+    color: rgba(14, 14, 14, 0.7);
+}
 /* news letter card style*/
 .newsletter-container {
     margin-bottom: 80px;
@@ -190,6 +224,10 @@ a {
     padding: 48px;
     border-radius: 16px;
     background: rgb(246, 245, 245);
+}
+.news-card-container:hover {
+    background-color: #58d9e8e6;
+    transition: 0.3s ease-in;
 }
 .news-card-title {
     font-size: 32px;
@@ -219,7 +257,7 @@ a {
     color: wheat;
     background-color: #092428;
     box-shadow: 0 5px 8px rgba(16, 16, 16, 0.2);
-    transition: background-color 0.3s ease;
+    transition: 0.3s ease;
 }
 .news-card2 {
     flex-direction: row-reverse;
@@ -227,6 +265,7 @@ a {
 /* donate section style */
 .donate-container {
     text-align: center;
+    margin-bottom: 80px;
 }
 .donate-description {
     text-align: center;
@@ -253,7 +292,6 @@ a {
 .amount-donate {
     margin: 0 0 32px 0;
     width: 845px;
-    /* align-items: center; */
     padding: 20px 40px;
     border: 1px solid rgba(14, 14, 14, 0.15);
 }
@@ -271,11 +309,36 @@ input::placeholder {
     background: #006a50;
     color: white;
     padding: 17px 34px;
-    margin-bottom: 32px;
 }
 .done-amount:hover {
     color: wheat;
     background-color: #2f77f5;
     box-shadow: 0 6px 10px rgba(16, 16, 16, 0.2);
     transition: background-color 0.3s ease;
+}
+.sub-container {
+    padding: 80px 100px;
+    border-radius: 16px;
+    text-align: center;
+    background: #c6e4d6;
+    margin-bottom: 80px;
+}
+.sub-input {
+    display: flex;
+    padding: 18px 40px;
+    align-items: center;
+    border-radius: 0 8px 8px 0;
+}
+input::placeholder {
+    text-align: start;
+}
+.enter-email {
+    width: 550px;
+    padding: 18px 40px;
+    border: 1px solid #006a50;
+    border-radius: 5px 0 0 5px;
+}
+.input-btn {
+    display: inline-flex;
+    margin: 24px 0;
 }
